@@ -1,0 +1,19 @@
+<Project Sdk="Piral.Blazor.Sdk/0.5.0-preview.8538723932">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+	<AppShell>C:\Data\github\Piral.Blazor.Samples\src\BlazorApp.Shell\bin\Debug\net8.0</AppShell>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <SupportedPlatform Include="browser" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.2" />
+  </ItemGroup>
+
+</Project>
